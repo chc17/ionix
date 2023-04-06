@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-index-html-configmap
+  namespace: default
+data:
+  index.html: |
+    <html>
+    <h1>Biemvendios a Ionix</h1>
+    </br>
+    <h1>Hola mundo</h1>
+    </html
